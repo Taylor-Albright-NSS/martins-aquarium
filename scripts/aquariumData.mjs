@@ -64,6 +64,119 @@ export const database = {
             diet: "Omnivore",
             image: "https://upload.wikimedia.org/wikipedia/commons/3/3f/Til%C3%A1pia_ou_Sarotherodon_niloticus_2.jpg"
         },
+        {
+            name: "Marlin",
+            species: "Clownfish",
+            length: 5,
+            location: "Great Barrier Reef",
+            diet: "Carnivore",
+            image: "https://example.com/images/marlin.jpg"
+          },
+          {
+            name: "Guppy",
+            species: "Guppy",
+            length: 1,
+            location: "Freshwater",
+            diet: "Omnivore",
+            image: "https://example.com/images/guppy.jpg"
+          },
+          {
+            name: "Goldie",
+            species: "Goldfish",
+            length: 3,
+            location: "Aquarium",
+            diet: "Herbivore",
+            image: "https://example.com/images/goldie.jpg"
+          },
+          {
+            name: "Bubbles",
+            species: "Betta Fish",
+            length: 2,
+            location: "Southeast Asia",
+            diet: "Carnivore",
+            image: "https://example.com/images/bubbles.jpg"
+          },
+          {
+            name: "Finn",
+            species: "Angelfish",
+            length: 6,
+            location: "Amazon River",
+            diet: "Omnivore",
+            image: "https://example.com/images/finn.jpg"
+          },
+          {
+            name: "Flash",
+            species: "Sailfin Tang",
+            length: 9,
+            location: "Coral Reefs",
+            diet: "Herbivore",
+            image: "https://example.com/images/flash.jpg"
+          },
+          {
+            name: "Sushi",
+            species: "Tilapia",
+            length: 4,
+            location: "Freshwater",
+            diet: "Omnivore",
+            image: "https://example.com/images/sushi.jpg"
+          },
+          {
+            name: "Whiskers",
+            species: "Catfish",
+            length: 5,
+            location: "Rivers",
+            diet: "Omnivore",
+            image: "https://example.com/images/whiskers.jpg"
+          },
+          {
+            name: "Swimmy",
+            species: "Rainbowfish",
+            length: 3,
+            location: "Australia",
+            diet: "Omnivore",
+            image: "https://example.com/images/swimmy.jpg"
+          },
+          {
+            name: "Chompers",
+            species: "Piranha",
+            length: 8,
+            location: "Amazon River",
+            diet: "Carnivore",
+            image: "https://example.com/images/chompers.jpg"
+          },
+          {
+            name: "Stripey",
+            species: "Zebra Danio",
+            length: 2,
+            location: "Freshwater",
+            diet: "Omnivore",
+            image: "https://example.com/images/stripey.jpg"
+          },
+          {
+            name: "Lenny",
+            species: "Largemouth Bass",
+            length: 10,
+            location: "Lakes and Rivers",
+            diet: "Carnivore",
+            image: "https://example.com/images/lenny.jpg"
+          },
+          {
+            name: "Bluey",
+            species: "Bluegill",
+            length: 3,
+            location: "Freshwater",
+            diet: "Carnivore",
+            image: "https://example.com/images/bluey.jpg"
+          },
+          {
+            name: "Tiffany",
+            species: "Tiger Barb",
+            length: 2,
+            location: "Southeast Asia",
+            diet: "Omnivore",
+            image: "https://example.com/images/tiffany.jpg"
+          }
+        
     ],
     tips: [
         {

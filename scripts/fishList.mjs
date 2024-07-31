@@ -1,9 +1,10 @@
 import { database } from './aquariumData.mjs';
 
 export const fishList = () => {
+    let fishHTML = ''
     const fishListElement = document.querySelector('#fishList')
     database.fish.map(fish => {
-        fishListElement.innerHTML += `
+        fishHTML += `
         <div class="fishCard">
         <article class='fishImageContainer'>
             <img class="fishImage" src="${fish.image}"/>
@@ -21,4 +22,5 @@ export const fishList = () => {
         </div>
         `
     })
+    return fishHTML
 };

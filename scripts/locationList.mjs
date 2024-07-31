@@ -1,9 +1,10 @@
 import { database } from "./aquariumData.mjs";
 
 export const locationList = () => {
+    let locationHTML = ''
     const locationListElement = document.getElementById('locationList')
     database.locations.map(location => {
-        locationListElement.innerHTML += `
+        locationHTML += `
         <article class="locations">
             <section class="locationItems">
                 <h3 class="locationName">${location.name}</h3>
@@ -13,4 +14,5 @@ export const locationList = () => {
         </article>
         `
     })
+    return locationHTML
 }
