@@ -1,9 +1,13 @@
 import { fishList } from './fishList.mjs'
+import { tipList } from './tipList.mjs'
+import { locationList } from './locationList.mjs'
 // import { tipList } from './tipList.mjs'
 // import { locationList } from './locationList.mjs'
 
 // Generate the fish list
-const fishHTML = fishList()
+fishList()
+tipList()
+locationList()
 // Generate the care tips
 // const tipHTML = tipList()
 
